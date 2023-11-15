@@ -26,6 +26,13 @@
         max-width: 100%;
         justify-items: auto;
     }
+    .contact-wrapper{
+        flex-direction: column;
+        /* margin-left: 12px; */
+    }
+    .form-wrapper{
+        margin-top: 40px;
+    }
 }
 @media (width<768px){
     
