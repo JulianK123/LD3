@@ -16,9 +16,13 @@
         position: absolute;
         left: 0;
         top: 0;
+        font-family: serif;
     }
     .print{
         display: none;
+    }
+    .resume-blocks{
+        flex-direction: column;
     }
     @page { counter-reset: page 1}
 }
