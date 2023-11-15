@@ -23,6 +23,10 @@
     }
     .resume-blocks{
         flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     @page { counter-reset: page 1}
 }
