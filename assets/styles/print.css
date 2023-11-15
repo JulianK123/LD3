@@ -8,14 +8,19 @@
 @media print {
     body *{
         visibility: hidden;
+        font-family: serif;
     }
     .resume, .resume * {
         visibility: visible;
+        font-family: serif;
     }
     .resume{
         position: absolute;
         left: 0;
         top: 0;
+        font-family: serif;
+    }
+    .resume h2,h3,h4{
         font-family: serif;
     }
     .print{
