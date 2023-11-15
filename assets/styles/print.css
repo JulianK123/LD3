@@ -1,0 +1,24 @@
+.print{
+    display: inline-block;
+}
+.print:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+@media print {
+    body *{
+        visibility: hidden;
+    }
+    .resume, .resume * {
+        visibility: visible;
+    }
+    .resume{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .print{
+        display: none;
+    }
+    @page { counter-reset: page 1}
+}

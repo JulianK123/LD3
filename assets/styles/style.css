@@ -1,0 +1,67 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,600;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,600;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* /Fonts */
+
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --headers-font: 'Raleway', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --body-font-size: 1rem;
+    --main-header-font-size: 32px;
+    --paragraph-color: #272829;
+    --primary-color: #149ddd;
+    --header-color:#173b6c;
+    --second-headers-color:#050d18;
+    --body-second-bg-color: #f5f8fd;
+}
+/* /Variables */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headers-font);
+}
+h2{
+    color: var(--header-color);
+    font-size: var(--main-header-font-size);
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+}
+h2:after{
+    content: "";
+    display: block;
+    margin-top: 20px;
+    width: 50px;
+    height: 3px;
+    background: var(--primary-color);
+    bottom: 0;
+    left: 0;
+}
+/* /Headings */
+
+/* Paragraph */
+.main p, em, ul, li{
+    font-family: var(--paragraph-font);
+    font-size: var(--body-font-size);
+    color: var(--paragraph-color);
+}
+em {
+    font-style: italic;
+}
+/* /Paragraph */
+/* Container */
+.my-container{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    padding: 0 12px;
+}
+/* /Container */
