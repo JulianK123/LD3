@@ -85,7 +85,7 @@
         margin-left: 0;
     }
 }
-@media  screen and  (min-width: 1200px){
+@media  screen and  (min-width: 1201px){
     .my-container{
         max-width: 1140px;
     }
