@@ -11,7 +11,14 @@ headerNav.addEventListener("click",(event)=>{
             if(element.hash == event.target.hash){
                 event.target.classList.add("active");
             }
+            
     });
+    if(window.innerWidth<1201){
+        header.classList.remove("header-show");
+        header.classList.add("header-hide");
+        button.classList.remove("bi-x");
+        button.classList.add("bi-list");
+    }
     
 });
 onload = () =>{
