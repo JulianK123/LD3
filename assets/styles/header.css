@@ -4,9 +4,112 @@
     height: 100vh;
     background-color: black;
     overflow: hidden;
+    z-index: 42414141;
 }
-@media (max-width: 1200px){
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    /* align-items: center; */
+}
+.header-profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+.header-profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%!important;
+}
+.social-links{
+    margin-top: 16px;
+    display: flex;
+}
+.social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu{
+    padding-top: 30px;
+}
+.nav-menu a{
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.nav-menu a i, .nav-menu a:focus i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+.nav-menu .active{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menu .active i{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #149ddd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.header-show{
+    left: 0;
+}
+.header-hide{
+    left: -300px;
+}
+/* @media (width<1201px){
     .header {
         left: -300px;
     }
-}
+} */

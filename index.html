@@ -40,10 +40,33 @@
 
 </head>
 <body>
-      <header class="header">
-
+  <i class="bi mobile-nav-toggle d-xl-none bi-list"></i>
+      <header class="header header-hide">
+        <section class="header-wrapper">
+          <article class="header-profile">
+            <img src="assets/img/profile-img.jpg" alt="">
+            <h1>Alex Smith</h1>
+            <section class="social-links">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </section>
+          </article>
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#intro" class="nav-link active"><i class="bx bx-home"></i> Home</a></li>
+              <li><a href="#about" class="nav-link"><i class="bx bx-user"></i> About</a></li>
+              <li><a href="#resume" class="nav-link"><i class="bx bx-file-blank"></i> Resume</a></li>
+              <li><a href="#portfolio" class="nav-link"><i class="bx bx-book-content"></i> Portfolio</a></li>
+              <li><a href="#services" class="nav-link"><i class="bx bx-server"></i> Services</a></li>
+              <li><a href="#contact" class="nav-link"><i class="bx bx-envelope"></i> Contact</a></li>
+            </ul>
+          </nav>
+        </section>
       </header>
-      <section class = "intro">
+      <section class = "intro" id = "intro">
           <article class="text-in-intro">
               <h1>Alex Smith</h1>
               <p>I'm Devoloper</p>
@@ -51,7 +74,7 @@
         </section>
 
       <main class="main">
-          <section class="section about">
+          <section class="section about" id = "about">
             <div class="my-container">
               <article class="title about-title">
                 <h2>About</h2>
@@ -206,7 +229,7 @@
           </section>
         </div>
       </section>
-      <section class="section resume">
+      <section class="section resume" id="resume">
         <div class="my-container">
           <article class="title resume-title">
             <h2>Resume</h2>
@@ -276,7 +299,7 @@
         </div>
       </section>
 
-      <section class="section portfolio">
+      <section class="section portfolio" id="portfolio">
         <div class="my-container">
           <article class="title portfolio-title">
             <h2>Portfolio</h2>
@@ -340,7 +363,7 @@
         </div>
       </section>
 
-      <section class="section services">
+      <section class="section services" id = "services">
         <div class="my-container">
           <article class="title services-title">
             <h2>Services</h2>
@@ -470,7 +493,7 @@
         </div>
       </section>
 
-      <section class="section contact">
+      <section class="section contact" id="contact">
         <div class="my-container">
           <article class="title contact-title">
             <h2>Contact</h2>
@@ -545,4 +568,5 @@
 </body>
 <script src="assets/scripts/portfolio.js"></script>
 <script src="assets/scripts/slider.js"></script>
+<script src="assets/scripts/header.js"></script>
 </html>

@@ -1,7 +1,6 @@
 const filterContainer = document.querySelector(".portfolio-filters>ul");
 const galleryItems = document.querySelectorAll(".portfolio-item");
 
-console.log(filterContainer);
 filterContainer.addEventListener("click", (event) =>{
     
     if(event.target.classList.contains("filter-item")){
