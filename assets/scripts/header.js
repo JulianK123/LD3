@@ -26,7 +26,6 @@ onresize = (event) => {
     if(window.innerWidth>1201 && header.classList.contains("header-hide")){
         header.classList.remove("header-hide");
         header.classList.add("header-show");
-        main.style.pointerEvents = "none";
     }
     if(window.innerWidth<1201 && header.classList.contains("header-show")){
         header.classList.add("header-hide");
