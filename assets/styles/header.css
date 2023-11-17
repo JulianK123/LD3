@@ -69,10 +69,13 @@
     transition: 0.3s;
     font-size: 15px;
 }
+.nav-menu ul li{
+    list-style: none;
+}
 .nav-menu a i, .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;
+    color: #6f7180
 }
 .nav-menu .active{
     text-decoration: none;
