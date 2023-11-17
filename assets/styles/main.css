@@ -251,8 +251,6 @@ progress {
     background-color: var(--body-second-bg-color);
     transition: height .2s;
 }
-.portfolio .container{
-}
 .portfolio-filters{
     display: flex;
     justify-content: center;
@@ -492,15 +490,8 @@ progress {
     width: 100%;
     flex: 60%;
 }
-
-/* .contact-wrapper > article:first-child{
-    width: 60%;
- } */
 .contact-info-info{
     padding: 30px;
-}
-.contact-info{
-    /* padding-left: 0 !important; */
 }
 .contact-info-info-item:hover i{
     background: #149ddd;
