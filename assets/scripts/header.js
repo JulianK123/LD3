@@ -4,7 +4,6 @@ const headerNav= document.querySelector(".nav-menu");
 const headerIcons= document.querySelectorAll(".nav-menu>ul>li>a>i");
 const headerLinks= document.querySelectorAll(".nav-menu>ul>li>a");
 
-
 headerNav.addEventListener("click",(event)=>{
     headerLinks.forEach(element => {
             element.classList.remove("active");

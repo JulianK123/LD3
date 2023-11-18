@@ -28,10 +28,13 @@
     }
     .contact-wrapper{
         flex-direction: column;
-        /* margin-left: 12px; */
     }
     .form-wrapper{
-        margin-top: 40px;
+        margin-top: 40px !important;
+    }
+    .contact-wrapper > article{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }
 @media (width<768px){
