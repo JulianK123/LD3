@@ -51,6 +51,7 @@ h2:after{
     font-family: var(--paragraph-font);
     font-size: var(--body-font-size);
     color: var(--paragraph-color);
+    word-wrap: break-word;
 }
 em {
     font-style: italic;

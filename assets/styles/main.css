@@ -461,6 +461,7 @@ progress {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     flex: 40%;
     margin-right: 12px;
+    word-wrap: break-word;
 }
 .contact-info i {
     font-size: 20px;
